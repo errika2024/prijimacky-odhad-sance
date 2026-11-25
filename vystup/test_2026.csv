@@ -1,0 +1,9 @@
+segment,model,n,AUC,Brier,LogLoss,ECE,predikce,skutecnost
+vsechny_priority,V5,280831,0.9536,0.0762,0.2468,0.0162,0.6937,0.7087
+vsechny_priority,benchmark_P10,273267,0.9332,0.1003,0.3307,0.0744,0.6323,0.7067
+priorita_1,V5,104637,0.9501,0.0874,0.2798,0.0145,0.5786,0.5908
+priorita_1,benchmark_P10,102413,0.9365,0.0986,0.3191,0.0246,0.5666,0.5897
+priorita_1_konkurencni (previs>2),V5,97657,0.9522,0.0859,0.2757,0.0156,0.5666,0.5798
+priorita_1_konkurencni (previs>2),benchmark_P10,97314,0.9367,0.0988,0.3201,0.0245,0.5572,0.579
+priorita_1_s_historii,V5,102413,0.9522,0.0856,0.2748,0.0164,0.5756,0.5897
+priorita_1_s_historii,benchmark_P10,102413,0.9365,0.0986,0.3191,0.0246,0.5666,0.5897

@@ -1,0 +1,3 @@
+varianta,iterace,AUC,Brier,LogLoss,ECE,predikce,skutecnost
+A_bez_omezeni,397,0.9411,0.0953,0.3041,0.0136,0.5951,0.5825
+B_monotonni,611,0.9416,0.0952,0.3029,0.0157,0.5982,0.5825

@@ -1,0 +1,24 @@
+# --- Velká nebo znovu vyrobitelná data (vytvoří je 01_priprava_dat.py) ---
+data/model_data.parquet
+
+# --- Surová data CERMAT se do repozitáře nedávají (leží v ../DATA) ---
+*.xlsx
+~$*
+
+# --- Studijní verze kódu (soukromé poznámky); smaž řádek, pokud ji chceš zveřejnit ---
+podrobne/
+
+# --- Python, prostředí, editory ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- Pracovní soubory CatBoostu ---
+catboost_info/
+
+# --- Streamlit tajné klíče (kdyby někdy byly potřeba) ---
+.streamlit/secrets.toml

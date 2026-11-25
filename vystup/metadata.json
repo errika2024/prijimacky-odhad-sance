@@ -1,0 +1,75 @@
+{
+  "varianta": "B_monotonni",
+  "monotonni_omezeni": true,
+  "iterace": 611,
+  "parametry": {
+    "loss_function": "Logloss",
+    "learning_rate": 0.08,
+    "l2_leaf_reg": 10,
+    "depth": 4,
+    "random_seed": 42,
+    "verbose": 0,
+    "thread_count": -1
+  },
+  "feature": [
+    "KKOV",
+    "KRAJ_KOD",
+    "ZRIZOVATEL_KOD",
+    "TYP_SKOLY",
+    "PRIORITA",
+    "PERC",
+    "PERC_CJ",
+    "PERC_MA",
+    "KAPACITA",
+    "POCET_CELKEM_LAG1",
+    "PRIJATI_LAG1",
+    "PREVIS_LAG1",
+    "PODIL_P1_LAG1",
+    "PODIL_P345_LAG1",
+    "PERC_MIN_LAG1",
+    "PERC_P10_LAG1",
+    "PERC_MEDIAN_LAG1",
+    "PERC_MAX_LAG1",
+    "PERC_MIN_AVG",
+    "PERC_P10_AVG",
+    "PERC_MEDIAN_AVG",
+    "PREVIS_AVG",
+    "MA_HISTORII",
+    "JE_TALENTOVKA",
+    "ROZDIL_PERC_MIN_LAG1",
+    "ROZDIL_PERC_MIN_AVG",
+    "ROZDIL_PERC_P10_LAG1",
+    "ROZDIL_PERC_P10_AVG",
+    "ROZDIL_PERC_MEDIAN_LAG1",
+    "ROZDIL_PERC_MEDIAN_AVG"
+  ],
+  "kategorie": [
+    "KKOV",
+    "KRAJ_KOD",
+    "ZRIZOVATEL_KOD",
+    "TYP_SKOLY"
+  ],
+  "monotonni": [
+    "PERC",
+    "PERC_CJ",
+    "PERC_MA",
+    "ROZDIL_PERC_MIN_LAG1",
+    "ROZDIL_PERC_MIN_AVG",
+    "ROZDIL_PERC_P10_LAG1",
+    "ROZDIL_PERC_P10_AVG",
+    "ROZDIL_PERC_MEDIAN_LAG1",
+    "ROZDIL_PERC_MEDIAN_AVG"
+  ],
+  "trenovaci_roky": [
+    2025,
+    2026
+  ],
+  "kalibrator": null,
+  "rozmezi": {
+    "metoda": "posun percentilu zaka v z-skore o max(delta_globalni, kolisani skoly)",
+    "kvantil": 0.8,
+    "delta_globalni": 0.439,
+    "delta_validace_2026": 0.4444,
+    "pokryti_2026": 0.818
+  }
+}
